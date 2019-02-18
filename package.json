@@ -1,0 +1,25 @@
+{
+  "name": "demo-ferries",
+  "version": "1.0.0",
+  "description": "A demo that shows the location of NWS ferries on a Sky Ledge map",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/skyledge/demo-ferries.git"
+  },
+  "author": "Abdul Rafehi",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/skyledge/demo-ferries/issues"
+  },
+  "homepage": "https://github.com/skyledge/demo-ferries#readme",
+  "dependencies": {    
+    "gtfs-realtime-bindings": "0.0.4",
+    "lodash": "^4.17.11",
+    "request": "^2.88.0"
+  }
+}
